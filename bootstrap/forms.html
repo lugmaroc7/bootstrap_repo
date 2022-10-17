@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+
+</head>
+<body class="bg-warning">
+Site Construction in Progress
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<div class="col-5 p-5 border border-success">
+    <form action="" class="was-validated">
+        <div class="mb-3">
+            <label class="form-label" for="email">Email Address</label>
+        <div>
+        <input class="form-control form-control-lg"input type="email" placeholder="Enter Email" name="email" id="email" value="lugmaroc7@gmail.com" >
+
+        
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="password">Password</label>
+        <input class="form-control form-control-lg" type="password" name="password" id="password" placeholder="Enter Password" required>
+        <div class="invalid-feedback">
+            Please enter a password
+        </div>
+    <div class="valid-feedback">
+    yeah!!!you have put your password
+    </div>
+
+    </div>
+    
+
+    <div class="mb-3">
+        <label for="file" class="form-label">Profile Picture</label>
+        <input type="file" name="image" id="file" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="color">color</label>
+        <input class="form-control form-control-color" type="color" name="color" id="color">
+    </div>
+
+
+    <div class="mb-3">
+        <label class="form-label" for="best-meal">Best meal</label> 
+        <select name="best-meal" id="best-meal" class="form-select">
+            <option selected>Choose a meal</option>
+            <option value="Rice">Rice</option>
+            <option value="Beans">Beans</option>
+            <option value="Agbado">Agbado</option>
+            <option value="kpomo">kpomo</option>
+
+        </select>
+
+    </div>
+
+    <div class="mb-3">
+        <h6>Educational Qualification</h6>
+        <div class="form-check">
+            <input class= "form-check-input" type="checkbox" name="Qualification" id="fslc">
+            <label for="fslc" class="form-check-label">Primary 6</label>
+        </div>
+
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="Qualification" id="waec">
+        <label for="waec" class="form-check-label">Waec</label>   
+    </div>
+
+    <div class="form-check">
+        <input class= "form-check-input" type="checkbox" name="Qualification" id="nd">
+        <label for="nd" class="form-check-label">National Diploma</label>
+       
+    </div>
+    <div class="mb-3">
+        <h6>Gender</h6>
+        <div class="form-check">
+            <input class= "form-check-input" type="radio" name="gender" id="male">
+            <label for="male" class="form-check-label">Male</label>
+        </div>
+
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="gender" id="female">
+        <label for="female" class="form-check-label">Female</label>   
+    </div>
+
+    <div class="form-check">
+        <input class= "form-check-input" type="radio" name="gender" id="confused">
+        <label for="confused" class="form-check-label">Confused</label>
+       
+    </div>
+
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" checked>
+        <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+        <label for="floatingPassword">Password</label>
+      </div>
+      
+      <a href=""class="btn btn-outline-danger w-100 mb-2">Go back</a>
+        <button class="btn btn-outline-success w-100">Register</button>
+        
+    </form>
+</div>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
