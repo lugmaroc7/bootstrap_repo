@@ -1,0 +1,14 @@
+input{
+    display: block;
+    width: 500px;
+    height: 20px;
+    margin: 20px 0;
+}
+
+#click{
+   
+    width: 200px;
+    height:300px;
+    border: solid 5px purple;
+
+}
